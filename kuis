@@ -1,0 +1,10 @@
+const sequenceMember = ( n,a,b ) => {  
+  let hasil = 0
+  for (let i = a; i <= n; i++) {
+      hasil = i + 3
+      console.log(hasil)
+      
+    }    
+}
+
+sequenceMember(20,1,3)
